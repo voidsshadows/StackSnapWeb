@@ -1,0 +1,18 @@
+site_name: StackSnap
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+repo_url: https://github.com/Nesbesss/StackSnap
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - FAQ: faq.md
+  - Privacy: privacy.md
