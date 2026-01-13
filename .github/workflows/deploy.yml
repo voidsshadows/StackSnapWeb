@@ -45,7 +45,7 @@ jobs:
         env:
           # If you are using a custom domain (e.g. stacksnap.io), set this to "/"
           # If using github.io/repo-name, set this to "/repo-name/"
-          BASE_URL: /StackSnap/
+          BASE_URL: /StackSnapWeb/
 
       - name: Install Dependencies (Docs)
         run: |
