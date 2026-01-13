@@ -6,7 +6,7 @@ import { Github, Play } from 'lucide-react';
 export default function Navbar() {
     const DOCS_URL = import.meta.env.VITE_DOCS_URL || (import.meta.env.DEV
         ? "http://localhost:8000"
-        : "https://nesbesss.github.io/StackSnap/");
+        : "/StackSnap/docs/");
 
     return (
         <motion.nav
